@@ -1,0 +1,256 @@
+@keyframes animate-bg {
+    0%{
+        background-image: url('../../images/bg-1.jpg');
+    }
+    50%{
+        background-image: url('../../images/bg-2.jpg');
+    }
+    100%{
+        background-image: url('../../images/bg-3.jpg');
+    }
+}
+
+@keyframes gif-1{
+    0%{
+        transform: scale(0);
+        top: 51%;
+        right: 23%;
+    }
+    100%{
+        transform: scale(1);
+        top: 40%;
+        right: 34%;
+    }
+}
+
+@keyframes gif-2{
+    0%{
+        transform: scale(0);
+        top: 51%;
+        right: 25%;    
+    }
+    100%{
+        transform: scale(1);
+        top: 33%;
+        right: 19%;
+    }
+}
+
+@keyframes gif-3{
+    0%{
+        transform: scale(0);
+        top: 51%;
+        right: 25%;    
+    }
+    100%{
+        transform: scale(1);
+        top: 51%;
+        right: 24%;
+    }
+}
+
+@keyframes gif-iphone{
+    0%{
+        transform: scale(0);
+        top: 50%;
+        right: 20%;  
+    }
+    100%{
+        transform: scale(1);
+        top: 10%;
+        right: 28%;
+    }
+}
+
+@keyframes gif-camera{
+    0%{
+        transform: scale(0);
+        top: 58%;
+        right: 22%; 
+    }
+    100%{
+        transform: scale(1);
+        top: 32%;
+        right: 42%;
+    }
+}
+
+@keyframes gif-bicycle{
+    0%{
+        transform: scale(0);
+        top: 48%;
+        right: 22%;
+    }
+    100%{
+        transform: scale(1);
+        top: 5%;
+        right: 50%;
+    }
+}
+@keyframes gif-ef1{
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes gif-ef2{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@include media-query(1600px){
+    @keyframes gif-1{
+        0%{
+            transform: scale(0);
+            top: 57%;
+            right: 25%;
+        }
+        100%{
+            transform: scale(1);
+            top: 48%;
+            right: 33%;
+        }
+    }
+    
+    @keyframes gif-2{
+        0%{
+            transform: scale(0);
+            top: 57%;
+            right: 25%;
+        }
+        100%{
+            transform: scale(1);
+            top: 38%;
+            right: 21%;
+        }
+    }
+    @keyframes gif-3{
+        0%{
+            transform: scale(0);
+            top: 57%;
+            right: 25%;
+        }
+        100%{
+            transform: scale(1);
+            top: 57%;
+            right: 25%;
+        }
+    }
+    @keyframes gif-iphone{
+        0%{
+            transform: scale(0);
+            top: 57%;
+            right: 25%;
+        }
+        100%{
+            transform: scale(1);
+            top: 15%;
+            right: 26%;
+        }
+    }
+    
+    @keyframes gif-camera{
+        0%{
+            transform: scale(0);
+            top: 57%;
+            right: 25%;
+        }
+        100%{
+            transform: scale(1);
+            top: 34%;
+            right: 35%;
+        }
+    }
+    
+    @keyframes gif-bicycle{
+        0%{
+            transform: scale(0);
+            top: 57%;
+            right: 25%;
+        }
+        100%{
+            transform: scale(1);
+            top: 10%;
+            right: 41%;
+        }
+    }
+}
+@include media-query(1400px){
+    @keyframes gif-1{
+        0%{
+            transform: scale(0);
+            top: 51%;
+            right: 23%;
+        }
+        100%{
+            transform: scale(1);
+            top: 38%;
+            right: 32%;
+        }
+    }
+    
+    @keyframes gif-2{
+        0%{
+            transform: scale(0);
+            top: 51%;
+            right: 25%;    
+        }
+        100%{
+            transform: scale(1);
+            top: 30%;
+            right: 19%;
+        }
+    }
+    @keyframes gif-3{
+        0%{
+            transform: scale(0);
+            top: 51%;
+            right: 25%;    
+        }
+        100%{
+            transform: scale(1);
+            top: 45%;
+            right: 23%;
+        }
+    }
+    @keyframes gif-iphone{
+        0%{
+            transform: scale(0);
+            top: 50%;
+            right: 20%;  
+        }
+        100%{
+            transform: scale(1);
+            top: 15%;
+            right: 26%;
+        }
+    }
+    
+    @keyframes gif-camera{
+        0%{
+            transform: scale(0);
+            top: 58%;
+            right: 22%; 
+        }
+        100%{
+            transform: scale(1);
+            top: 29%;
+            right: 38%;
+        }
+    }
+    
+    @keyframes gif-bicycle{
+        0%{
+            transform: scale(0);
+            top: 48%;
+            right: 22%;
+        }
+        100%{
+            transform: scale(1);
+            top: 5%;
+            right: 43%;
+        }
+    }
+}

@@ -1,0 +1,144 @@
+@import url('../../fonts/FC-Iconic/stylesheet.css');
+@import url('../../fonts/Montserrat/stylesheet.css');
+
+$ff-mont : 'MontserratSemiBold';
+$ff-iconic-reg : 'FCIconicRegular';
+$ff-iconic-bold : 'FCIconicBold';
+body{
+    font-family: $ff-iconic-reg;
+    font-size: 1.6rem;
+}
+.ff-mont{
+    font-family: $ff-mont;
+}
+.ff-iconic-bold{
+    font-family: $ff-iconic-bold;
+}
+.hide-991{
+    display: block;
+}
+.show-991{
+    display: none;
+}
+.landing-page{    
+    background-image: url('../../images/bg-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+    height: 100vh;
+    animation: animate-bg 3s infinite alternate-reverse;
+    background-attachment: fixed;
+    overflow-y: scroll;
+}
+.motor-logo{
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+}
+.box-register{
+    max-width: 600px;
+    padding: 3rem;
+    .box-head{        
+        text-align: center;
+        h1{
+            font-size: 6rem;
+            margin-bottom: 0;
+            line-height: 6rem;
+            letter-spacing: 5px;
+            background: #fff4b5;
+            background: radial-gradient(circle farthest-side at center center, #fff4b5 0%, #A1712B 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+    .box-body{
+        padding: 0 .5rem;
+        .input-group{
+            margin-bottom: 1.5rem;
+            .form-control{
+                border-radius: 0;
+                color: #000;
+                font-size: 1.6rem;
+                padding: 0 1rem;
+            }
+        }
+    }
+
+    .box-footer{
+        padding: 0 .5rem;
+        p{
+            line-height: 1.6rem;
+        }
+    }
+}
+
+.btn-submit{
+    font-family: $ff-iconic-bold ;
+    display: block;
+    width: 100%;
+    border: 0;
+    background: #fff4b5;
+    background: radial-gradient(circle farthest-side at center center, #fff4b5 0%, #A1712B 100%);
+}
+
+.gif-section{
+    .gif-1{
+        position: absolute;
+        top: 40%;
+        right: 34%;
+        z-index: 99;
+        animation: gif-1 4s;
+    }
+    .gif-2{
+        position: absolute;
+        top: 33%;
+        right: 19%;
+        z-index: 99;
+        animation: gif-2 4s;
+    }
+    .gif-3{
+        position: absolute;
+        top: 51%;
+        right: 24%;
+        z-index: 99;
+        animation: gif-3 5s;
+    }
+    .gif-iphone{
+        position: absolute;
+        top: 10%;
+        right: 28%;
+        z-index: 99;
+        animation: gif-iphone 3s;
+    }
+    .gif-camera{
+        position: absolute;
+        top: 32%;
+        right: 42%;
+        z-index: 99;
+        animation: gif-camera 3s;
+    }
+    .gif-bicycle{
+        position: absolute;
+        top: 5%;
+        right: 50%;
+        z-index: 99;
+        animation: gif-bicycle 2.5s;
+    }
+    .gif-ef1{
+        position: absolute;
+        top: 30%;
+        right: 14%;
+        animation: gif-ef1 150s infinite;
+    }
+    .gif-ef2{
+        position: absolute;
+        top: 25%;
+        right: 13%;
+        z-index: 999;
+        animation: gif-ef2 5s;
+    }
+}
+
+@import "respon";
+@import "animate";

@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'FCIconicBold';
+    src: url('FCIconicBold.woff2') format('woff2'),
+        url('FCIconicBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FCIconicBoldItalic';
+    src: url('FCIconicBoldItalic.woff2') format('woff2'),
+        url('FCIconicBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FCIconicRegular';
+    src: url('FCIconicRegular.woff2') format('woff2'),
+        url('FCIconicRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FCIconicItalic';
+    src: url('FCIconicItalic.woff2') format('woff2'),
+        url('FCIconicItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+

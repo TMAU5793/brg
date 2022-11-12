@@ -1,0 +1,562 @@
+@import url("../../fonts/FC-Iconic/stylesheet.css");
+@import url("../../fonts/Montserrat/stylesheet.css");
+body {
+  font-family: "FCIconicRegular";
+  font-size: 1.6rem;
+}
+
+.ff-mont {
+  font-family: "MontserratSemiBold";
+}
+
+.ff-iconic-bold {
+  font-family: "FCIconicBold";
+}
+
+.hide-991 {
+  display: block;
+}
+
+.show-991 {
+  display: none;
+}
+
+.landing-page {
+  background-image: url("../../images/bg-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top right;
+  height: 100vh;
+  animation: animate-bg 3s infinite alternate-reverse;
+  background-attachment: fixed;
+  overflow-y: scroll;
+}
+
+.motor-logo {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+.box-register {
+  max-width: 600px;
+  padding: 3rem;
+}
+.box-register .box-head {
+  text-align: center;
+}
+.box-register .box-head h1 {
+  font-size: 6rem;
+  margin-bottom: 0;
+  line-height: 6rem;
+  letter-spacing: 5px;
+  background: #fff4b5;
+  background: radial-gradient(circle farthest-side at center center, #fff4b5 0%, #A1712B 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.box-register .box-body {
+  padding: 0 0.5rem;
+}
+.box-register .box-body .input-group {
+  margin-bottom: 1.5rem;
+}
+.box-register .box-body .input-group .form-control {
+  border-radius: 0;
+  color: #000;
+  font-size: 1.6rem;
+  padding: 0 1rem;
+}
+.box-register .box-footer {
+  padding: 0 0.5rem;
+}
+.box-register .box-footer p {
+  line-height: 1.6rem;
+}
+
+.btn-submit {
+  font-family: "FCIconicBold";
+  display: block;
+  width: 100%;
+  border: 0;
+  background: #fff4b5;
+  background: radial-gradient(circle farthest-side at center center, #fff4b5 0%, #A1712B 100%);
+}
+
+.gif-section .gif-1 {
+  position: absolute;
+  top: 40%;
+  right: 34%;
+  z-index: 99;
+  animation: gif-1 4s;
+}
+.gif-section .gif-2 {
+  position: absolute;
+  top: 33%;
+  right: 19%;
+  z-index: 99;
+  animation: gif-2 4s;
+}
+.gif-section .gif-3 {
+  position: absolute;
+  top: 51%;
+  right: 24%;
+  z-index: 99;
+  animation: gif-3 5s;
+}
+.gif-section .gif-iphone {
+  position: absolute;
+  top: 10%;
+  right: 28%;
+  z-index: 99;
+  animation: gif-iphone 3s;
+}
+.gif-section .gif-camera {
+  position: absolute;
+  top: 32%;
+  right: 42%;
+  z-index: 99;
+  animation: gif-camera 3s;
+}
+.gif-section .gif-bicycle {
+  position: absolute;
+  top: 5%;
+  right: 50%;
+  z-index: 99;
+  animation: gif-bicycle 2.5s;
+}
+.gif-section .gif-ef1 {
+  position: absolute;
+  top: 30%;
+  right: 14%;
+  animation: gif-ef1 150s infinite;
+}
+.gif-section .gif-ef2 {
+  position: absolute;
+  top: 25%;
+  right: 13%;
+  z-index: 999;
+  animation: gif-ef2 5s;
+}
+
+@media (max-width: 1600px) {
+  .gif-section .gif-1 {
+    top: 48%;
+    right: 33%;
+  }
+  .gif-section .gif-1 img {
+    width: 100px;
+  }
+  .gif-section .gif-2 {
+    top: 38%;
+    right: 21%;
+  }
+  .gif-section .gif-2 img {
+    width: 100px;
+  }
+  .gif-section .gif-3 {
+    top: 57%;
+    right: 25%;
+  }
+  .gif-section .gif-3 img {
+    width: 100px;
+  }
+  .gif-section .gif-iphone {
+    top: 15%;
+    right: 26%;
+  }
+  .gif-section .gif-iphone img {
+    width: 200px;
+  }
+  .gif-section .gif-camera {
+    top: 34%;
+    right: 35%;
+  }
+  .gif-section .gif-camera img {
+    width: 130px;
+  }
+  .gif-section .gif-bicycle {
+    top: 10%;
+    right: 41%;
+  }
+  .gif-section .gif-bicycle img {
+    width: 160px;
+  }
+  .gif-section .gif-ef1 {
+    top: 22%;
+    right: 14%;
+  }
+  .gif-section .gif-ef2 {
+    top: 24%;
+    right: 14%;
+  }
+  .gif-section .gif-ef2 img {
+    width: 350px;
+  }
+}
+@media (max-width: 1400px) {
+  .gif-section .gif-1 {
+    top: 38%;
+    right: 32%;
+  }
+  .gif-section .gif-1 img {
+    width: 100px;
+  }
+  .gif-section .gif-2 {
+    top: 30%;
+    right: 19%;
+  }
+  .gif-section .gif-2 img {
+    width: 100px;
+  }
+  .gif-section .gif-3 {
+    top: 45%;
+    right: 23%;
+  }
+  .gif-section .gif-3 img {
+    width: 100px;
+  }
+  .gif-section .gif-iphone {
+    top: 15%;
+    right: 26%;
+  }
+  .gif-section .gif-iphone img {
+    width: 200px;
+  }
+  .gif-section .gif-camera {
+    top: 29%;
+    right: 38%;
+  }
+  .gif-section .gif-camera img {
+    width: 130px;
+  }
+  .gif-section .gif-bicycle {
+    top: 5%;
+    right: 43%;
+  }
+  .gif-section .gif-bicycle img {
+    width: 160px;
+  }
+  .gif-section .gif-ef1 {
+    top: 22%;
+    right: 14%;
+  }
+  .gif-section .gif-ef2 {
+    top: 24%;
+    right: 14%;
+  }
+  .gif-section .gif-ef2 img {
+    width: 350px;
+  }
+}
+@media (max-width: 1200px) {
+  html {
+    font-size: 0.8rem;
+  }
+  .box-register {
+    width: 530px;
+  }
+}
+@media (max-width: 991px) {
+  .landing-page {
+    background-image: url("../../images/mobile/bg-mobile.jpg");
+    animation: none;
+  }
+  .hide-991 {
+    display: none;
+  }
+  .show-991 {
+    display: block;
+  }
+  .box-register {
+    max-width: 70%;
+    width: 100%;
+    margin: auto;
+  }
+  .mobile-footer {
+    background-image: url("../../images/mobile/bg-footer.png");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 6rem 1rem 0;
+  }
+  .mobile-footer .row {
+    padding: 5rem 1.5rem 2rem;
+  }
+  .mobile-footer .row .col img {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .box-register {
+    max-width: 100%;
+  }
+}
+@media (max-width: 560px) {
+  html {
+    font-size: 0.6rem;
+  }
+  .landing-page {
+    min-height: 100vh;
+  }
+  .mobile-footer {
+    padding: 3.5rem 1rem 0;
+    background-size: 100%;
+  }
+  .mobile-footer .row {
+    padding: 2rem 0;
+  }
+}
+@keyframes animate-bg {
+  0% {
+    background-image: url("../../images/bg-1.jpg");
+  }
+  50% {
+    background-image: url("../../images/bg-2.jpg");
+  }
+  100% {
+    background-image: url("../../images/bg-3.jpg");
+  }
+}
+@keyframes gif-1 {
+  0% {
+    transform: scale(0);
+    top: 51%;
+    right: 23%;
+  }
+  100% {
+    transform: scale(1);
+    top: 40%;
+    right: 34%;
+  }
+}
+@keyframes gif-2 {
+  0% {
+    transform: scale(0);
+    top: 51%;
+    right: 25%;
+  }
+  100% {
+    transform: scale(1);
+    top: 33%;
+    right: 19%;
+  }
+}
+@keyframes gif-3 {
+  0% {
+    transform: scale(0);
+    top: 51%;
+    right: 25%;
+  }
+  100% {
+    transform: scale(1);
+    top: 51%;
+    right: 24%;
+  }
+}
+@keyframes gif-iphone {
+  0% {
+    transform: scale(0);
+    top: 50%;
+    right: 20%;
+  }
+  100% {
+    transform: scale(1);
+    top: 10%;
+    right: 28%;
+  }
+}
+@keyframes gif-camera {
+  0% {
+    transform: scale(0);
+    top: 58%;
+    right: 22%;
+  }
+  100% {
+    transform: scale(1);
+    top: 32%;
+    right: 42%;
+  }
+}
+@keyframes gif-bicycle {
+  0% {
+    transform: scale(0);
+    top: 48%;
+    right: 22%;
+  }
+  100% {
+    transform: scale(1);
+    top: 5%;
+    right: 50%;
+  }
+}
+@keyframes gif-ef1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes gif-ef2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media (max-width: 1600px) {
+  @keyframes gif-1 {
+    0% {
+      transform: scale(0);
+      top: 57%;
+      right: 25%;
+    }
+    100% {
+      transform: scale(1);
+      top: 48%;
+      right: 33%;
+    }
+  }
+  @keyframes gif-2 {
+    0% {
+      transform: scale(0);
+      top: 57%;
+      right: 25%;
+    }
+    100% {
+      transform: scale(1);
+      top: 38%;
+      right: 21%;
+    }
+  }
+  @keyframes gif-3 {
+    0% {
+      transform: scale(0);
+      top: 57%;
+      right: 25%;
+    }
+    100% {
+      transform: scale(1);
+      top: 57%;
+      right: 25%;
+    }
+  }
+  @keyframes gif-iphone {
+    0% {
+      transform: scale(0);
+      top: 57%;
+      right: 25%;
+    }
+    100% {
+      transform: scale(1);
+      top: 15%;
+      right: 26%;
+    }
+  }
+  @keyframes gif-camera {
+    0% {
+      transform: scale(0);
+      top: 57%;
+      right: 25%;
+    }
+    100% {
+      transform: scale(1);
+      top: 34%;
+      right: 35%;
+    }
+  }
+  @keyframes gif-bicycle {
+    0% {
+      transform: scale(0);
+      top: 57%;
+      right: 25%;
+    }
+    100% {
+      transform: scale(1);
+      top: 10%;
+      right: 41%;
+    }
+  }
+}
+@media (max-width: 1400px) {
+  @keyframes gif-1 {
+    0% {
+      transform: scale(0);
+      top: 51%;
+      right: 23%;
+    }
+    100% {
+      transform: scale(1);
+      top: 38%;
+      right: 32%;
+    }
+  }
+  @keyframes gif-2 {
+    0% {
+      transform: scale(0);
+      top: 51%;
+      right: 25%;
+    }
+    100% {
+      transform: scale(1);
+      top: 30%;
+      right: 19%;
+    }
+  }
+  @keyframes gif-3 {
+    0% {
+      transform: scale(0);
+      top: 51%;
+      right: 25%;
+    }
+    100% {
+      transform: scale(1);
+      top: 45%;
+      right: 23%;
+    }
+  }
+  @keyframes gif-iphone {
+    0% {
+      transform: scale(0);
+      top: 50%;
+      right: 20%;
+    }
+    100% {
+      transform: scale(1);
+      top: 15%;
+      right: 26%;
+    }
+  }
+  @keyframes gif-camera {
+    0% {
+      transform: scale(0);
+      top: 58%;
+      right: 22%;
+    }
+    100% {
+      transform: scale(1);
+      top: 29%;
+      right: 38%;
+    }
+  }
+  @keyframes gif-bicycle {
+    0% {
+      transform: scale(0);
+      top: 48%;
+      right: 22%;
+    }
+    100% {
+      transform: scale(1);
+      top: 5%;
+      right: 43%;
+    }
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
